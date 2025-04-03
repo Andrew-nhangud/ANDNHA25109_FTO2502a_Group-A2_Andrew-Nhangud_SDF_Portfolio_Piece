@@ -284,3 +284,122 @@ footer h2 {
   color: var(--primary-color);
 }
 /* end of the footer */
+
+/* Media Query for Tables */
+@media (min-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; /* Three columns for desktop */
+  }
+
+  .section {
+    margin-bottom: 2rem; /* Add spacing between sections on desktop */
+  }
+
+  .project-heart {
+    width: 10%;
+  }
+}
+
+/* Media querys for Desktop */
+@media (min-width: 1024px) {
+  /* styles for the container */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 28px;
+    row-gap: 10px;
+  }
+  /* styles for the hero section */
+  .hero-section {
+    grid-area: 1 / 1 / 2 / 5;
+    column-gap: 27px;
+  }
+  .profile-pic {
+    width: 300px;
+    height: 200px;
+  }
+  .bio-section {
+    padding: 59px 69px;
+  }
+  .bio-info {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  /* end */
+
+  /* styles for the proficiency section */
+  .proficiency-section {
+    display: grid;
+    grid-area: 2 / 1 / 3 / 3;
+  }
+  .level-labels {
+    margin-top: 25px;
+  }
+  .language-box {
+    margin-top: 10px;
+  }
+  /* end */
+
+  /* styles for the skills section */
+  .skills-section {
+    grid-area: 2 / 3 / 3 / 5;
+  }
+  .interest-box {
+    margin-top: 15px;
+  }
+  .skills {
+    font-size: 15px;
+    border-radius: 1rem;
+    padding: 15px;
+    margin: 5px;
+  }
+  /* end */
+
+  /* styles for the project section */
+  .project-section {
+    grid-area: 3 / 1 / 4 /5;
+  }
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
+  /* end */
+
+  /* styles for the education section */
+  .education-section {
+    grid-area: 4 / 1 / 5 / 4;
+  }
+  .card-title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .card-para {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .card-descrip {
+    font-size: 14px;
+  }
+  /* end */
+
+  /* styles for the tools section */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* end */
+
+  /* styles for the exprience section */
+  .Experience-section {
+    grid-area: 5 / 1 / 6 / 5;
+  }
+  /* end */
+
+  /* styles for the footer */
+  .footer-section {
+    grid-area: 6 / 1 / 7 / 5;
+  }
+}
