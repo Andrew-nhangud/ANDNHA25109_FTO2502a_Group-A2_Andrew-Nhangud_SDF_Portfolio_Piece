@@ -268,3 +268,19 @@ body {
   margin: 0 auto;
 }
 /* /end of tools section */
+/* footer */
+footer {
+  background-color: var(--detail-color);
+  margin-top: 20px;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+footer h2 {
+  font-size: 16px;
+  color: var(--primary-color);
+}
+.contacts {
+  color: var(--primary-color);
+}
+/* end of the footer */
