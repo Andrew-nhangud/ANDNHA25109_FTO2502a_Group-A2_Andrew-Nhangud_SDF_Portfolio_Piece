@@ -18,13 +18,14 @@
 }
 
 body {
-  background-color: var(--background-color);
+  background-image: url(images/background-picture.png);
+  background: cover;
 }
 
 /* container for the whole portfolio */
 .container {
   max-width: 90%;
-  margin: auto;
+  margin: 18px auto;
 }
 
 .white-container {
@@ -310,6 +311,7 @@ footer h2 {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 28px;
     row-gap: 10px;
+    margin-top: 40px;
   }
   /* styles for the hero section */
   .hero-section {
