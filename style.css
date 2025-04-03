@@ -218,3 +218,53 @@ body {
   font-size: 13px;
 }
 /* end of the education and Experience sections */
+/* Tools Section  */
+.tools-section {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  background-color: #f3f4f6;
+  border-radius: 0.5rem;
+  padding: 0px;
+  position: relative;
+}
+
+.section-label {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  padding: 0.1rem 0.1rem;
+  border-radius: 100px;
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tools-title {
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+}
+/* /end of tools section */
