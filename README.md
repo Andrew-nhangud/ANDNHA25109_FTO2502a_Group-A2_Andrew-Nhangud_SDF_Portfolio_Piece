@@ -43,4 +43,4 @@ To view this portfolio locally, follow these steps:
 - **Email:** Andrewnhangud3785@gmail.com
 - **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/andrew-android-3a6a1426b/)
 - **Github:** [My Github Profile](https://github.com/Andrew-nhangud)
-- **Presentation:** [My Github Profile](https://github.com/Andrew-nhangud)
+- **Presentation:** [My presentation](https://www.veed.io/view/cf9b68d6-994b-4f6c-b6af-3cfd682575e5?panel=share)
