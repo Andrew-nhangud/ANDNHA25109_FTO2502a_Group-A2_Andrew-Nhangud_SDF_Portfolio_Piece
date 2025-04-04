@@ -219,6 +219,7 @@ body {
   font-size: 13px;
 }
 /* end of the education and Experience sections */
+
 /* Tools Section  */
 .tools-section {
   background-color: var(--primary-color);
@@ -269,6 +270,7 @@ body {
   margin: 0 auto;
 }
 /* /end of tools section */
+
 /* footer */
 footer {
   background-color: var(--detail-color);
@@ -285,6 +287,45 @@ footer h2 {
   color: var(--primary-color);
 }
 /* end of the footer */
+
+/* Project Card Hover Effect */
+.project-card,
+.featured-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover,
+.featured-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Education and Experience Card Hover Effect */
+.secondary-card,
+.third-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.secondary-card:hover,
+.third-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Hover Effect in Tools Section */
+.icon {
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+/* Footer Text Hover Effect */
+.footer-section p:hover {
+  color: var(--detail-color);
+  text-decoration: underline;
+}
 
 /* Media Query for Tables */
 @media (min-width: 768px) {
