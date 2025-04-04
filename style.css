@@ -283,7 +283,12 @@ footer h2 {
   font-size: 16px;
   color: var(--primary-color);
 }
-.contacts {
+.contacts a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.contacts li {
+  list-style: none;
   color: var(--primary-color);
 }
 /* end of the footer */
@@ -320,12 +325,7 @@ footer h2 {
 .icon:hover {
   transform: scale(1.1);
 }
-
-/* Footer Text Hover Effect */
-.footer-section p:hover {
-  color: var(--detail-color);
-  text-decoration: underline;
-}
+/* end of hover styles */
 
 /* Media Query for Tables */
 @media (min-width: 768px) {
