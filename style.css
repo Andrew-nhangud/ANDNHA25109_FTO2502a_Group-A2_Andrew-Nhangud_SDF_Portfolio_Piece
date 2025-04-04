@@ -77,7 +77,7 @@ body {
 
 .language-box {
   display: grid;
-  grid-template-columns: 0.1fr 1fr;
+  grid-template-columns: 0.5fr 1fr;
 }
 .language-box li {
   list-style: none;
